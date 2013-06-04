@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Example Page</title>
+    <link rel="stylesheet" media="all" href="mkjqrainbow.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="mkjqrainbow.js"></script>
+
+</head>
+<body>
+    
+        <div id="block" style="width:100px;height:100px;"></div>
+        <span id="text">I'm a rainbow text! Hello.</span>
+    
+    <script>
+    $(document).ready( function() {
+        $('#block').rainbow();
+        $('#text').rainbow({speed: "slow"});
+    });
+    </script>
+    
+</body>
+</html>
